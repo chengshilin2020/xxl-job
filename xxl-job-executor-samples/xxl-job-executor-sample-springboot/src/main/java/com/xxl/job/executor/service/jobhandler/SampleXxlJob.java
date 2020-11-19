@@ -243,6 +243,7 @@ public class SampleXxlJob {
         XxlJobHelper.log("XXL-JOB, Hello World.");
     }
     public void init(){
+        System.out.println("初始化方法");
         logger.info("init");
     }
     public void destroy(){
